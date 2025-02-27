@@ -1,0 +1,77 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page-background">
+  <ActionBar title="{{ butterfly.scientificName }}" class="action-bar">
+    <NavigationButton visibility="visible" tap="{{ goBack }}" android.systemIcon="ic_menu_back" ios.systemIcon="1" />
+    <ActionItem ios.position="right" android.position="actionBar" 
+                tap="{{ copyToClipboard }}" class="nature-button">
+      <Label text="Copy Details      " color="white" />
+    </ActionItem>
+  </ActionBar>
+
+  <ScrollView>
+    <StackLayout class="detail-container" class="p-2">
+      <StackLayout class="info-card" doubleTap="{{ copyScientificInfo }}">
+        <Label text="{{ butterfly.scientificName }}" textWrap="true" class="text-center leading-none text-2xl font-bold" color="#00008B" />
+        <Label text="{{ butterfly.sciName }}" textWrap="true" class="text-center text-md  leading-none" color="#333333" />
+        <Label text="{{ butterfly.commonName }}" textWrap="true" class="text-center text-xl  leading-none" color="#000dff" />
+        <Label text="{{ butterfly.malayalamName }}" textWrap="true" class="text-center text-xl  leading-none" color="#B22222" />
+        <Label text="{{ butterfly.family }}" textWrap="true" class="text-center text-md font-bold  leading-none" color="#006400" />
+      </StackLayout>
+    
+      <GridLayout>
+        <ScrollView id="mainPhotoScrollView" minZoom="1" maxZoom="4">
+          <Image src="{{ butterfly.mainPhoto }}" class="rounded-lg m-0" 
+                 pinch="{{ onPinch }}" 
+                 doubleTap="{{ onDoubleTap }}"
+                 pan="{{ onPan }}" />
+        </ScrollView>
+      </GridLayout>
+
+      <Button text="{{ checklistButtonText }}" tap="{{ onChecklistTap }}" 
+              class="{{ isInChecklist ? 'bg-blue-500' : 'bg-yellow-500' }}" />
+
+      <StackLayout class="info-card">    
+		<Label text="{{ butterfly.description1 + ' ' + butterfly.description2 + ' ' + butterfly.description3 + ' ' + butterfly.description4 + ' ' + butterfly.description5}}" textWrap="true" class="text-center text-md  leading-none" color="#333333" />
+      </StackLayout>
+      
+      <!-- Wingspan Section -->
+      <StackLayout class="info-card" visibility="{{ butterfly.wingspan ? 'visible' : 'collapsed' }}">
+        <Label text="Wingspan" class="section-title text-center" />
+        <Label text="{{ butterfly.wingspan }}" textWrap="true" class="text-center text-xl" color="#4A7856" />
+      </StackLayout>
+      
+      <!-- Host Plants Section -->
+      <StackLayout class="info-card" >
+        <Label text="Host Plants" class="section-title text-center" />
+        <Repeater items="{{ butterfly.hostPlants }}">
+          <Repeater.itemTemplate>
+            <Label text="{{ name }}" tap="{{ $parents['Page'].onHostPlantTap }}" 
+                   class="text-center text-sm external-link" textWrap="true" />
+          </Repeater.itemTemplate>
+        </Repeater>
+      </StackLayout>
+
+      <Repeater items="{{ butterfly.photos }}" class="photo-container">
+        <Repeater.itemTemplate>
+          <StackLayout>
+            <GridLayout>
+              <ScrollView minZoom="1" maxZoom="4">
+                <Image src="{{ url }}" class="rounded-lg m-0"
+                       pinch="{{ $parents['Repeater'].onPinch }}"
+                       doubleTap="{{ $parents['Repeater'].onDoubleTap }}"
+                       pan="{{ $parents['Repeater'].onPan }}" />
+              </ScrollView>
+            </GridLayout>
+            <Label text="{{ credit }}" tap="{{ $parents['Repeater'].onCreditTap }}" class="leading-none text-center text-sm p-2 external-link" textWrap="true" />
+          </StackLayout>
+        </Repeater.itemTemplate>
+      </Repeater>
+
+      <StackLayout class="info-card">
+        <Button text="View Species Page" tap="{{ onSpeciesLinkTap }}" 
+                class="nature-button" />
+        <Button text="View on Wikipedia" tap="{{ onWikipediaLinkTap }}" 
+                class="nature-button" />
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</Page>
