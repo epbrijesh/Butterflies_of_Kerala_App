@@ -18,8 +18,8 @@
 	    ],
     "mainPhoto": "~/images/southernbirdwing1.jpg",
     "photos": [
-      { "url": "~/images/southernbirdwing1.jpg", "credit": "© ബര്‍ണാഡ് എം തമ്പാന്‍", "sourceurl": "https://www.ifoundbutterflies.org/sp/2860/Troides-minos" },
-      { "url": "~/images/southernbirdwing2.jpg", "credit": "© ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceurl": "https://www.ifoundbutterflies.org/sp/2860/Troides-minos" }
+      { "url": "~/images/southernbirdwing1.jpg", "credit": "© ബര്‍ണാഡ് എം തമ്പാന്‍", "sourceUrl": "https://www.ifoundbutterflies.org/sp/2860/Troides-minos" },
+      { "url": "~/images/southernbirdwing2.jpg", "credit": "© ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://www.ifoundbutterflies.org/sp/2860/Troides-minos" }
     ],
     "speciesLink": "https://www.ifoundbutterflies.org/troides-minos",
     "wikipediaLink": "https://en.wikipedia.org/wiki/Troides_minos"
@@ -43,8 +43,8 @@
     ],
     "mainPhoto": "~/images/commonrose1.jpg",
     "photos": [
-      { "url": "~/images/commonrose1.jpg", "credit": "© ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceurl": "https://www.ifoundbutterflies.org/sp/569/Pachliopta-aristolochiae" },
-      { "url": "~/images/commonrose2.jpg", "credit": "© ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceurl": "https://www.ifoundbutterflies.org/sp/569/Pachliopta-aristolochiae" }
+      { "url": "~/images/commonrose1.jpg", "credit": "© ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://www.ifoundbutterflies.org/sp/569/Pachliopta-aristolochiae" },
+      { "url": "~/images/commonrose2.jpg", "credit": "© ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://www.ifoundbutterflies.org/sp/569/Pachliopta-aristolochiae" }
     ],
     "speciesLink": "https://www.ifoundbutterflies.org/pachliopta-aristolochiae",
     "wikipediaLink": "https://en.wikipedia.org/wiki/Pachliopta_aristolochiae"
