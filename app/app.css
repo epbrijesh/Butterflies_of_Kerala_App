@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nature-inspired color palette */
+.action-bar {
+  background-color: #2F5233;  /* Dark forest green */
+  color: #FFFFFF;
+}
+
+.page-background {
+  background-color: #F4F9F1;  /* Light sage */
+}
+
+.search-bar {
+  background-color: #FFFFFF;
+  border-radius: 8;
+  padding: 8;
+  margin: 8;
+  border-width: 1;
+  border-color: #91B48C;  /* Soft green */
+  height: 40;
+}
+
+.butterfly-card {
+  background-color: #FFFFFF;
+  border-radius: 12;
+  margin: 8 12;
+  elevation: 2;
+  border-width: 1;
+  border-color: #91B48C;
+}
+
+.nature-button {
+  background-color: #4A7856;  /* Forest green */
+  color: #FFFFFF;
+  border-radius: 4;
+  padding: 4 8;
+  margin: 2;
+  font-size: 12;
+}
+
+.text-button {
+  background-color: #4A7856;  /* Forest green */
+  color: #FFFFFF;
+  border-radius: 4;
+  padding: 4 8;
+  margin: 2;
+  font-size: 12;
+}
+
+.nature-button:highlighted {
+  background-color: #2F5233;
+}
+
+.detail-container {
+  padding: 16;
+  background-color: #F4F9F1;
+}
+
+.info-card {
+  background-color: #FFFFFF;
+  border-radius: 12;
+  margin: 8 0;
+  padding: 16;
+  border-width: 1;
+  border-color: #91B48C;
+}
+
+.photo-container {
+  margin-top: 16;
+}
+
+.photo-card {
+  background-color: #FFFFFF;
+  border-radius: 12;
+  margin: 8 0;
+  elevation: 2;
+}
+
+.external-link {
+  color: #4A7856;
+  text-decoration: underline;
+  margin: 4 0;
+}
+
+.section-title {
+  color: #2F5233;
+  font-weight: bold;
+  font-size: 20;
+  margin: 12 0;
+}
+
+.leaf-bullet {
+  color: #4A7856;
+  margin-right: 8;
+}

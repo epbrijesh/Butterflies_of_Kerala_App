@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page-background">
+  <ActionBar title="Transect Records" class="action-bar">
+    <NavigationButton visibility="visible" tap="{{ goBack }}" android.systemIcon="ic_menu_back" ios.systemIcon="1" />
+  </ActionBar>
+
+  <GridLayout rows="auto, auto, auto, *, auto" class="p-2">
+    <!-- Active Transect Info -->
+    <GridLayout rows="auto" columns="*, auto" class="p-2" row="0">
+      <StackLayout col="0" class="p-2">
+        <Label text="{{ activeTransectDate }}" class="text-xl font-bold leading-none" color="#2F5233" />
+        <Label text="{{ 'Duration: ' + activeTransectDuration }}" class="text-sm mt-1 leading-none" color="#4A7856" />
+      </StackLayout>
+      <Button text="Switch" tap="{{ showTransectPicker }}" 
+              class="nature-button" backgroundColor="#800080" width="80" height="25" col="1" />
+    </GridLayout>
+
+    <!-- Search and Add Species -->
+    <GridLayout rows="auto" columns="*, auto" class="p-2" row="1">
+      <SearchBar hint="Search species to add..." text="{{ searchQuery }}" 
+                 submit="{{ onSearch }}" clear="{{ onClear }}"
+                 class="search-bar" col="0" />
+      <Button text="Add" tap="{{ showSpeciesSelector }}" isEnabled="{{ hasSearchResults }}"
+              class="nature-button" width="80" height="35" col="1" />
+    </GridLayout>
+
+    <!-- Search Results -->
+    <ListView items="{{ searchResults }}" itemTap="{{ onSpeciesSelect }}" 
+              visibility="{{ showSearchResults ? 'visible' : 'collapsed' }}"
+              height="150" row="2" class="m-2">
+      <ListView.itemTemplate>
+        <GridLayout columns="*" rows="auto" class="p-2">
+          <Label text="{{ scientificName + ' - ' + malayalamName }}" textWrap="true" class="text-md" color="#00008B" />
+        </GridLayout>
+      </ListView.itemTemplate>
+    </ListView>
+
+    <!-- Transect Entries -->
+    <ListView items="{{ transectEntries }}" row="3" separatorColor="transparent">
+      <ListView.itemTemplate>
+        <GridLayout columns="auto, *, auto" rows="auto" class="butterfly-card p-2">
+          <Label text="{{ serialNumber + '.' }}" col="0" class="p-2" />
+          <StackLayout col="1" class="p-2">
+            <Label text="{{ time }}" class="text-sm" color="#4A7856" />
+            <Label text="{{ speciesName }}" textWrap="true" class="text-md" color="#00008B" />
+            <Label text="{{ malayalamName }}" textWrap="true" class="text-md" color="#B22222" />
+          </StackLayout>
+          <Label text="{{ count }}" col="2" class="p-2" />
+        </GridLayout>
+      </ListView.itemTemplate>
+    </ListView>
+
+    <!-- Bottom Actions -->
+    <GridLayout rows="auto, auto, auto" columns="*, *" class="p-2" row="4">
+      <Button text="New Transect" tap="{{ createNewTransect }}" 
+              class="nature-button" backgroundColor="#009aff" width="160" height="28" col="0" row="0" margin="2" />
+			  
+      <Button text="Remove Item" tap="{{ removeItemByNumber }}" 
+              class="nature-button" backgroundColor="#7d3901" width="160" height="28" col="1" row="0" margin="2" />
+			  
+      <Button text="Edit Transect" tap="{{ editTransectDetails }}" 
+              class="nature-button" width="160" height="28" col="0" row="1" margin="2" />
+			  
+      <Button text="Export" tap="{{ exportTransect }}" 
+              class="nature-button" backgroundColor="#daa520" width="160" height="28" col="1" row="1" margin="2" />
+      <Button text="Delete" tap="{{ deleteTransect }}" 
+              class="nature-button" backgroundColor="#7f2222" width="160" height="28" col="0" row="2" margin="2" colspan="2" />
+    </GridLayout>
+	
+  </GridLayout>
+</Page>

@@ -1,0 +1,98 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page-background" navigatingTo="onNavigatingTo">
+  <ActionBar title="About App" class="action-bar">
+    <NavigationButton visibility="visible" tap="{{ goBack }}" android.systemIcon="ic_menu_back" ios.systemIcon="1" />
+  </ActionBar>
+
+  <ScrollView>
+    <StackLayout class="p-4">
+      <!-- App Info -->
+      <StackLayout class="info-card">
+        <Image src="~/assets/app_01.png" width="120" height="120" class="mb-4" horizontalAlignment="center" />
+        <Label text="Butterflies of Kerala v.5.0" class="text-xl section-title text-center" />
+
+        <Label textWrap="true" text="This app is designed to help nature enthusiasts, researchers, and curious minds learn about and identify Butterfly species found in Kerala." color="#333333" class="text-center" />
+        <Label text="Rate App" class="text-xl external-link text-center font-bold" tap="{{ openPlayStore }}" />	
+        <Image src="~/assets/app_11.png" width="200" class="mb-4" horizontalAlignment="center" />
+        <Label text="Other Apps" class="text-xl external-link text-center font-bold" tap="{{ openPlayStorePub }}" />	
+      </StackLayout>
+
+      <!-- Developer Info -->
+      <StackLayout class="info-card">
+        <Label text="Developer" class="section-title text-center" />
+        <Image src="~/assets/app_02.png" width="120" height="120" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onDeveloperImageTap }}" />
+        <Label textWrap="true" text="Brijesh Pookkottur" color="#00008B" class="text-xl text-center font-bold mb-2" />
+        <Label text="Contact:" textWrap="true" color="#333333" class="text-center" />
+		<Label text="epbrijesh@gmail.com" textWrap="true" class="text-center external-link font-bold" tap="{{ sendEmail }}" />
+		<Label text="Mobile: +919961257788" textWrap="true" class="text-center external-link font-bold" tap="{{ callPhone }}" />
+		<Label text="Visit Website" class="external-link text-center font-bold" tap="{{ openWebsite }}" />
+      </StackLayout>
+
+      <!-- NGO Info -->
+      <StackLayout class="info-card">
+        <Label text="Associated With" class="section-title text-center" />
+		<Image src="~/assets/app_03.png" width="120" height="120" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onStearImageTap }}" />
+        <Label textWrap="true" text="Society for Tropical Ecology and Research (STEAR) Nilambur, Malappuram" color="#333333" class="text-center font-bold" />
+        <Label text="The developer is a proud member of STEAR, an NGO dedicated to ecological research and conservation." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+		<Label text="......................................................................" class="text-center" />
+		
+		<Image src="~/assets/app_04.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onTnhsImageTap }}" />
+        <Label textWrap="true" text="Travancore Nature History Society (TNHS)" color="#333333" class="text-center font-bold" />
+		<Label text="Thanks TNHS and Dr. Kalesh Sadasivan for guidance and providing latest checklist for Kerala. TNHS is a Non-Governmental Organization studying Biodiversity of the Southern Western Ghats." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+      </StackLayout>
+	  
+      <!-- Credits Info -->
+      <StackLayout class="info-card">
+       <Label text="Acknowledgements and Credits:" class="section-title text-center" />
+		<Label text="All the photographs displayed are copyrighted by the respective authors. Please check the attribution URL of each photograph for the original files along with the license details. Feel free to contact me, if this app violating any rights." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+		<Label text="......................................................................" class="text-center" />
+			
+		<Image src="~/assets/app_06.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onWikipediaImageTap }}" />
+        <Label textWrap="true" text="Wikipedia and Wikimedia Commons" color="#333333" class="text-center font-bold" />
+		<Label text="Information in Malayalam has taken from Wikipedia, the free online encyclopedia. Respective links are given in species pages. Most of the species images are taken from Wikimedia Commons, a media file repository making available public domain and freely licensed educational media content. Thanks to Shri. Jeevan Jose and many others who contributed their valuable photos to this Free Repository." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+		<Label text="......................................................................" class="text-center" />
+		
+		<Image src="~/assets/app_05.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onSosImageTap }}" />
+        <Label textWrap="true" text="Butterflies of India" color="#333333" class="text-center font-bold" />
+		<Label text="Thanks to the Butterflies of India website. ifoundButterflies is devoted to exploration and conservation of biodiversity through research, citizen science, education, and advocacy in the Indian Region." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+		<Label text="......................................................................" class="text-center" />
+		
+		<Image src="~/assets/app_07.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onInaturalistImageTap }}" />
+		<Label text="iNaturalist - A Community for Naturalists." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+		<Label text="......................................................................" class="text-center" />
+		
+		<Image src="~/assets/app_08.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onButterflyVisionImageTap }}" />
+		<Label text="Thanks to Shri. Theivaprakasham Hari for allowing me to include his AI powered Butterfly identification tool." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+      </StackLayout>
+
+      <!-- Source Code -->
+      <StackLayout class="info-card">
+        <Label text="Development and Source Code" class="section-title text-center" />
+        <Image src="~/assets/app_09.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onBoltImageTap }}" />
+        <Label text="This app is developed in NativeScript using Bolt.new which is an AI-powered web development agent." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+		
+		<Label text="......................................................................" class="text-center" />
+		
+        <Image src="~/assets/app_10.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onGithubImageTap }}" />
+        <Label text="Source Code is available in my GitHub repository. The app is OpenSource and licensed under Apache-2.0 license." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
+      </StackLayout>
+
+      <!-- Data Sync Section -->
+      <StackLayout class="info-card">
+        <Label text="Data Updation" class="text-xl font-bold text-center" color="#4A7856" />
+        <GridLayout rows="auto, auto" columns="*, *" class="mt-2">
+          <Label text="Installed Version:" class="text-right p-2" row="0" col="0" />
+          <Label text="{{ currentVersion }}" class="text-left p-2" row="0" col="1" />
+          <Label text="Web Version:" class="text-right p-2" row="1" col="0" />
+          <Label text="{{ latestVersion }}" class="text-left p-2" row="1" col="1" />
+        </GridLayout>
+        <Button text="Update Data" tap="{{ syncData }}" class="nature-button mt-2" backgroundColor="#4A7856" />
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</Page>
