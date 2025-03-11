@@ -18,8 +18,8 @@
   ],
   "mainPhoto": "~/images/crimsonrose1.jpg",
   "photos": [
-  { "url": "~/images/crimsonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
-  { "url": "~/images/crimsonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
@@ -43,8 +43,8 @@
   ],
   "mainPhoto": "~/images/bluemormon1.jpg",
   "photos": [
-  { "url": "~/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
-  { "url": "~/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
