@@ -1,0 +1,48 @@
+[
+{
+  "id": 4,
+  "commonName": "Crimson Rose",
+  "malayalamName": "ചക്കരശലഭം",
+  "scientificName": "Pachliopta hector",
+  "sciName": "Pachliopta hector (Linnaeus, 1758)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "ഇന്ത്യയിലും ശ്രീലങ്കയിലും കാണപ്പെടുന്ന ഒരു ചിത്രശലഭം. കിളിവാലന്‍ ശലഭങ്ങളുടെ കൂട്ടത്തില്‍പ്പെടുന്നു. ചക്കരറോസ്, ചക്കരപാറ്റ് എന്നും അറിയുന്നു.",
+  "description2": "ശരീരത്തില്‍ എത്തുന്നതിനാല്‍ മറ്റ് പക്ഷികള്‍ ഇവയെ പൊതുവെ ആഹാരമാക്കാറില്ല.",
+  "description3": null,
+  "description4": null,
+  "description5": null,
+  "wingspan": null, "hostPlants": [ { "name": "...", "wikiLink": "...." }, { "name": "...", "wikiLink": "...." } ],
+  "mainPhoto": "~/images/crimsonrose1.jpg",
+  "photos": [ { "url": "~/images/crimsonrose1.jpg",
+  "credit": "…..",
+  "sourceUrl": "https://commons.wikimedia.org/" }, { 
+  "url": "~/images/crimsonrose2.jpg",
+  "credit": "…..",
+  "sourceUrl": "https://commons.wikimedia.org/" } ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 15,
+  "commonName": "Indian Blue Mormon",
+  "malayalamName": "കൃഷ്ണശലഭം",
+  "scientificName": "Papilio polymnestor polymnestor",
+  "sciName": "Papilio polymnestor polymnestor (Cramer, 1775)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "വലിപ്പത്തിന്റെ കാര്യത്തില്‍ ഇന്ത്യയില്‍ രണ്ടാം സ്ഥാനത്താണ് കൃഷ്ണശലഭം എന്ന മലയാളത്തില്‍ വിളിക്കുന്ന ഈ പൂമ്പാറ്റ. നമ്മുടെ നാട്ടിന്‍പുറങ്ങളില്‍ സര്‍വ്വസാധാരണയായി കണ്ടു വരുന്ന ഇവയുടെ ചിറകിന്റെ വലുപ്പം 120 മുതല്‍ 150 മില്ലിമീറ്റര്‍ വരെയാണ്.",
+  "description2": "പൂമ്പാറ്റകള്‍ വെയിലില്‍ പറന്ന് നടക്കാറുണ്ട്. എന്നാല്‍ പെണ്‍പൂമ്പാറ്റകള്‍ക്ക് തണലില്‍ കഴിയാനാണ് ഇഷ്ടപ്പെടുന്നത്. ഈര്‍പ്പം നിറഞ്ഞ അന്തരീക്ഷം ആണ് ഇവയ്ക്കു പ്രിയം.",
+  "description3": null,
+  "description4": null,
+  "description5": null,
+  "wingspan": null, "hostPlants": [ { "name": "...", "wikiLink": "...." }, { "name": "...", "wikiLink": "...." } ],
+  "mainPhoto": "~/images/bluemormon1.jpg",
+  "photos": [ { "url": "~/images/bluemormon1.jpg",
+  "credit": "…..",
+  "sourceUrl": "https://commons.wikimedia.org/" }, { 
+  "url": "~/images/bluemormon2.jpg",
+  "credit": "…..",
+  "sourceUrl": "https://commons.wikimedia.org/" } ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+}
+]
