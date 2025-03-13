@@ -1,7 +1,7 @@
 [
 {
   "id": 4,
-  "commonName": "UPDATE Crimson Rose",
+  "commonName": "Crimson Rose",
   "malayalamName": "ചക്കരശലഭം",
   "scientificName": "Pachliopta hector",
   "sciName": "Pachliopta hector (Linnaeus, 1758)",
@@ -27,12 +27,12 @@
 },
 {
   "id": 15,
-  "commonName": "UPDATE Indian Blue Mormon",
+  "commonName": "Indian Blue Mormon",
   "malayalamName": "കൃഷ്ണശലഭം",
-  "scientificName": "Papilio polymnestor polymnestor",
+  "scientificName": "Papilio polymnestor",
   "sciName": "Papilio polymnestor polymnestor (Cramer, 1775)",
   "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
-  "description1": "UPDATE വലിപ്പത്തിന്റെ കാര്യത്തില്‍ ഇന്ത്യയില്‍ രണ്ടാം സ്ഥാനത്താണ് കൃഷ്ണശലഭം എന്ന മലയാളത്തില്‍ വിളിക്കുന്ന ഈ പൂമ്പാറ്റ.",
+  "description1": "വലിപ്പത്തിന്റെ കാര്യത്തില്‍ ഇന്ത്യയില്‍ രണ്ടാം സ്ഥാനത്താണ് കൃഷ്ണശലഭം എന്ന മലയാളത്തില്‍ വിളിക്കുന്ന ഈ പൂമ്പാറ്റ.",
   "description2": "നാരകം, കാട്ടുനാരകം എന്നിവയിലാണ് ഈ ശലഭങ്ങള്‍ മുട്ടയിടുന്നത്.",
   "description3": "",
   "description4": "",
@@ -42,11 +42,38 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "~/images/bluemormon1.jpg",
+  "mainPhoto": "~/images/bluemormon3.jpg",
   "photos": [
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 3,
+  "commonName": "Indian Common Rose",
+  "malayalamName": "നാട്ടുറോസ്‌",
+  "scientificName": "Pachliopta aristolochiae",
+  "sciName": "Pachliopta aristolochiae (Fabricius, 1775)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "നമ്മുടെ നാട്ടിന്‍പുറങ്ങളില്‍ വളരെ സാധാരണയായി കാണപ്പെടുന്ന ഈ പൂമ്പാറ്റ. എണ്‍പതു മുതല്‍ നൂറ്റിപ്പത്ത് മില്ലിമിറ്റര്‍ വരെയാണ് ഇവയുടെ ഏകദേശ ചിറകളവ്.",
+  "description2": "ചക്കര റോസ് എന്നും ഈ ശലഭത്തിന് പേരുണ്ട്.",
+  "description3": "കൃഷ്ണകിരിടം, ചെത്തി, അരിപ്പൂ, സൂര്യകാന്തി, സീനിയ തുടങ്ങിയവയില്‍ നിന്ന് തേന്‍ കുടിക്കുന്നവയാണ് ഇവ.",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/commonrose1.jpg",
+  "photos": [
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose4.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
