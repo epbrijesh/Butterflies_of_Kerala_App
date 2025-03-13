@@ -16,11 +16,11 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose1.jpg",
+  "mainPhoto": "~/images/crimsonrose1.jpg",
   "photos": [
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  { "url": "~/images/crimsonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/crimsonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/crimsonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
@@ -42,11 +42,11 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg",
+  "mainPhoto": "~/images/bluemormon1.jpg",
   "photos": [
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  { "url": "~/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/bluemormon3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
@@ -68,12 +68,12 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose1.jpg",
+  "mainPhoto": "~/images/commonrose1.jpg",
   "photos": [
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
-  { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose4.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  { "url": "~/images/commonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/commonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/commonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/commonrose4.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
