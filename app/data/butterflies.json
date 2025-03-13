@@ -16,7 +16,7 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "~/images/crimsonrose1.jpg",
+  "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose1.jpg",
   "photos": [
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/crimsonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
@@ -42,7 +42,7 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "~/images/bluemormon3.jpg",
+  "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg",
   "photos": [
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
@@ -68,7 +68,7 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "~/images/commonrose1.jpg",
+  "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose1.jpg",
   "photos": [
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/commonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
