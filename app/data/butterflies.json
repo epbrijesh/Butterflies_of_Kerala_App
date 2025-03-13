@@ -77,5 +77,55 @@
   ],
   "speciesLink": "https://www.ifoundbutterflies.org/",
   "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 1,
+  "commonName": "Sahyadri Birdwing",
+  "malayalamName": "തെക്കന്‍ ഗരുഡശലഭം‌",
+  "scientificName": "Troides minos",
+  "sciName": "Troides minos (Cramer,1779)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "ദക്ഷിണേന്ത്യയിലെ ഏറ്റവും വലിയ ചിത്രശലഭമാണ് തെക്കന്‍ ഗരുഡശലഭം.",
+  "description2": "ചിറകുവിടര്‍ത്തുമ്പോള്‍ ചിറകുകള്‍ തമ്മിലുള്ള അകലം 140-190 മി.മീ.ആണ്.",
+  "description3": "",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/southernbirdwing1.jpg",
+  "photos": [
+  { "url": "~/images/southernbirdwing1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/southernbirdwing2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 2,
+  "commonName": "Malabar Rose",
+  "malayalamName": "മലബാര്‍ റോസ്",
+  "scientificName": "Pachliopta pandiyana",
+  "sciName": "Pachliopta pandiyana (Moore, 1881)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "നാട്ടുറോസുമായി നല്ല സാമ്യമുള്ള ഒരു കിളിവാലന്‍ ശലഭമാണ് മലബാര്‍ റോസ്. തെക്കേ ഇന്ത്യയിലെ തദ്ദേശവാസിയായ ഒരു പ്രധാനശലഭമാണിത്.",
+  "description2": "",
+  "description3": "",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/malabarrose1.jpg",
+  "photos": [
+  { "url": "~/images/malabarrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/malabarrose2.jpg", "credit": "ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/" }
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
 }
 ]
