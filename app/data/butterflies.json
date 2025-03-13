@@ -32,7 +32,7 @@
   "scientificName": "Papilio polymnestor polymnestor",
   "sciName": "Papilio polymnestor polymnestor (Cramer, 1775)",
   "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
-  "description1": "വലിപ്പത്തിന്റെ കാര്യത്തില്‍ ഇന്ത്യയില്‍ രണ്ടാം സ്ഥാനത്താണ് കൃഷ്ണശലഭം എന്ന മലയാളത്തില്‍ വിളിക്കുന്ന ഈ പൂമ്പാറ്റ.",
+  "description1": "UPDATE വലിപ്പത്തിന്റെ കാര്യത്തില്‍ ഇന്ത്യയില്‍ രണ്ടാം സ്ഥാനത്താണ് കൃഷ്ണശലഭം എന്ന മലയാളത്തില്‍ വിളിക്കുന്ന ഈ പൂമ്പാറ്റ.",
   "description2": "നാരകം, കാട്ടുനാരകം എന്നിവയിലാണ് ഈ ശലഭങ്ങള്‍ മുട്ടയിടുന്നത്.",
   "description3": "",
   "description4": "",
@@ -42,7 +42,7 @@
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
     { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
   ],
-  "mainPhoto": "~/images/bluemormon3.jpg",
+  "mainPhoto": "~/images/bluemormon1.jpg",
   "photos": [
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
   { "url": "https://raw.githubusercontent.com/epbrijesh/Butterflies_of_Kerala_App/refs/heads/main/app/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
