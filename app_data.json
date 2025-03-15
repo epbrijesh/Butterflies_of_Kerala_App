@@ -1,0 +1,131 @@
+[
+{
+  "id": 4,
+  "commonName": "Crimson Rose",
+  "malayalamName": "ചക്കരശലഭം",
+  "scientificName": "Pachliopta hector",
+  "sciName": "Pachliopta hector (Linnaeus, 1758)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "ഇന്ത്യയിലും ശ്രീലങ്കയിലും കാണപ്പെടുന്ന ഒരു ചിത്രശലഭം.",
+  "description2": "മുട്ടയ്ക്ക് തവിട്ടുകലര്‍ന്ന ഓറഞ്ച് നിറമാണ്.",
+  "description3": "",
+  "description4": "",
+  "description5": "",
+    "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/crimsonrose1.jpg",
+  "photos": [
+  { "url": "~/images/crimsonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/crimsonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/crimsonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 15,
+  "commonName": "Indian Blue Mormon",
+  "malayalamName": "കൃഷ്ണശലഭം",
+  "scientificName": "Papilio polymnestor",
+  "sciName": "Papilio polymnestor polymnestor (Cramer, 1775)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "വലിപ്പത്തിന്റെ കാര്യത്തില്‍ ഇന്ത്യയില്‍ രണ്ടാം സ്ഥാനത്താണ് കൃഷ്ണശലഭം എന്ന മലയാളത്തില്‍ വിളിക്കുന്ന ഈ പൂമ്പാറ്റ.",
+  "description2": "നാരകം, കാട്ടുനാരകം എന്നിവയിലാണ് ഈ ശലഭങ്ങള്‍ മുട്ടയിടുന്നത്.",
+  "description3": "",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/bluemormon1.jpg",
+  "photos": [
+  { "url": "~/images/bluemormon1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/bluemormon2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/bluemormon3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 3,
+  "commonName": "Indian Common Rose",
+  "malayalamName": "നാട്ടുറോസ്‌",
+  "scientificName": "Pachliopta aristolochiae",
+  "sciName": "Pachliopta aristolochiae (Fabricius, 1775)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "നമ്മുടെ നാട്ടിന്‍പുറങ്ങളില്‍ വളരെ സാധാരണയായി കാണപ്പെടുന്ന ഈ പൂമ്പാറ്റ. എണ്‍പതു മുതല്‍ നൂറ്റിപ്പത്ത് മില്ലിമിറ്റര്‍ വരെയാണ് ഇവയുടെ ഏകദേശ ചിറകളവ്.",
+  "description2": "ചക്കര റോസ് എന്നും ഈ ശലഭത്തിന് പേരുണ്ട്.",
+  "description3": "കൃഷ്ണകിരിടം, ചെത്തി, അരിപ്പൂ, സൂര്യകാന്തി, സീനിയ തുടങ്ങിയവയില്‍ നിന്ന് തേന്‍ കുടിക്കുന്നവയാണ് ഇവ.",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/commonrose1.jpg",
+  "photos": [
+  { "url": "~/images/commonrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/commonrose2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/commonrose3.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" },
+  { "url": "~/images/commonrose4.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" } 
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 1,
+  "commonName": "Sahyadri Birdwing",
+  "malayalamName": "തെക്കന്‍ ഗരുഡശലഭം‌",
+  "scientificName": "Troides minos",
+  "sciName": "Troides minos (Cramer,1779)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "ദക്ഷിണേന്ത്യയിലെ ഏറ്റവും വലിയ ചിത്രശലഭമാണ് തെക്കന്‍ ഗരുഡശലഭം.",
+  "description2": "ചിറകുവിടര്‍ത്തുമ്പോള്‍ ചിറകുകള്‍ തമ്മിലുള്ള അകലം 140-190 മി.മീ.ആണ്.",
+  "description3": "",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/southernbirdwing1.jpg",
+  "photos": [
+  { "url": "~/images/southernbirdwing1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/southernbirdwing2.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+},
+{
+  "id": 2,
+  "commonName": "Malabar Rose",
+  "malayalamName": "മലബാര്‍ റോസ്",
+  "scientificName": "Pachliopta pandiyana",
+  "sciName": "Pachliopta pandiyana (Moore, 1881)",
+  "family": "കിളിവാലന്‍ ചിത്രശലഭങ്ങള്‍ (Papilionidae)",
+  "description1": "നാട്ടുറോസുമായി നല്ല സാമ്യമുള്ള ഒരു കിളിവാലന്‍ ശലഭമാണ് മലബാര്‍ റോസ്. തെക്കേ ഇന്ത്യയിലെ തദ്ദേശവാസിയായ ഒരു പ്രധാനശലഭമാണിത്.",
+  "description2": "",
+  "description3": "",
+  "description4": "",
+  "description5": "",
+  "wingspan": "... mm", 
+  "hostPlants": [ 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" }, 
+    { "name": "....", "wikiLink": "https://en.wikipedia.org/" } 
+  ],
+  "mainPhoto": "~/images/malabarrose1.jpg",
+  "photos": [
+  { "url": "~/images/malabarrose1.jpg", "credit": ".....", "sourceUrl": "https://commons.wikimedia.org/" }, 
+  { "url": "~/images/malabarrose2.jpg", "credit": "ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/" }
+  ],
+  "speciesLink": "https://www.ifoundbutterflies.org/",
+  "wikipediaLink": "https://en.wikipedia.org/"
+}
+]
